@@ -18,7 +18,7 @@
 </head>
 <body>
 {{View::make('header')}} <!-- including Header -->
- @yield('content')
+ @yield('content')      <!-- imprt from section -->
 {{View::make('footer')}}<!-- including footer -->
 </body>
 <style>
